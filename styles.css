@@ -1,6 +1,91 @@
-#top-strip {
-	/* Using box model to move from top of page and center */
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 100px;
-	text-align: center;
+.top-nav {
+    background-color: beige;
+    padding: 1px 5px 1px 30px;     overflow: hidden;
+  }
+  
+  #top-cta {
+      display: inline;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  
+  li {
+      float: right;
+    
+  }
+  
+  
+  a {
+      display: inline-flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      padding: 5px;
+      text-decoration: none;
+      margin: 3px;
+      background-color: beige;
+      opacity: .75;
+      color: black;
+      border: 1px solid;
+  }
+  
+  a:hover {
+    background-color: #b06100;
+  }
+  
+  .primary {
+      padding: 5px 20px;
+  }
+  
+  #byline {
+      padding: 0;
+      margin: 0 auto;
+      font-size: 20px;
+      color: #ad3703;
+  }
+  
+  #blog-title {
+      padding: 0;
+      margin: 0 auto; 
+  }
+  
+  #background-img {
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
+  
+  }
+  
+  body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png");
+        }
+  
+  #article-img1 {
+      float: right;
+  }
+  
+  #article-img2 {
+      float: left;
+  }
+  
+.logo-text {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}  
+
+header {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blogpost-container {
+    display: inline-block;
+    width: 75%;
+    margin: 0 auto; 
+}
