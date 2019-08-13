@@ -1,23 +1,23 @@
+/* order: display, position, box model, font, text styles, animations */
+
 .top-nav {
-    background-color: beige;
     padding: 1px 5px 1px 30px;
     overflow: hidden;
+    background-color: beige;
   }
   
   #top-cta {
       display: inline;
-      list-style-type: none;
+      overflow: hidden;
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      list-style-type: none;
   }
   
   li {
       float: right;
-    
   }
-  
-  
+    
   a {
       display: inline-flex;
       flex-flow: row wrap;
@@ -73,51 +73,51 @@
 }  
 
 header {
-    font-family: 'Oswald', sans-serif;
     width: 80%;
     margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
     padding: 3px 4px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 .blogpost-container {
+    padding: 2px 5px 0px 20px;
     width: 77.5%;
     margin: 30px auto;
     background-color: #fff;
-    padding: 2px 5px 0px 20px;
 }
 
 .beige-nav {
+    padding: 0px;
     width: 80%;
     margin: 0 auto;
-    padding: 0px;
 }
 
 .blog-header {
-    background-image: url("https://www.worldvision.org.hk/en/images/data/default/B02_Relief_Africa-Hunger-Relief_topbanner.jpg");
     width: 100%;
     height: 400px;
     margin: 0 auto; 
+    background-image: url("https://www.worldvision.org.hk/en/images/data/default/B02_Relief_Africa-Hunger-Relief_topbanner.jpg");
 }
 
 #blog-title {
+    margin: 0;
     padding: 100px 300px 0px 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 56px;
     color: #fff;
-    margin: 0;
 }
 
 #byline {
     padding: 0px 300px 0px 30px;
+    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     color: #ce8731;
-    margin: 0;
 }
 
 .postnav-container {
@@ -131,8 +131,8 @@ p {
     padding: 0;
     width: 48%;
     height: 80px;
-    background-color: rgb(196, 191, 191);
     text-align: center;
+    background-color: rgb(196, 191, 191);
     font-size: 36px;
 }
 
